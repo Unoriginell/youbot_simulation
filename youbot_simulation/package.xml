@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<package>
+<package format="2">
   <name>youbot_simulation</name>
   <version>0.1.0</version>
   <description>Meta packages which holds packages to run the KUKA youBot in the Gazebo simulation with ROS</description>
@@ -9,11 +9,15 @@
 
   <license>GPLv3</license>
 
-  <url type="website">http://github.com/mas-group/youbot_simulation</url> -->
+  <url type="website">http://github.com/mas-group/youbot_simulation</url>
 
   <author email="frederik.hegger@h-brs.de">Frederik Hegger</author>
 
   <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>youbot_gazebo_control</exec_depend>
+  <exec_depend>youbot_gazebo_robot</exec_depend>
+  <exec_depend>youbot_gazebo_worlds</exec_depend>  
 
   <export>
     <metapackage/>
